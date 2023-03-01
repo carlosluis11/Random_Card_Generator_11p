@@ -55,14 +55,13 @@ pintaDown.style.fontSize = '50px';
 
 if(randomPintas=== "♦" || randomPintas === "♥") {
     pintaUp.style.color = "red";
+    cardValue.style.color = "red";
   }
 
 if (randomPintas === "♦" || randomPintas === "♥") {
     pintaDown.style.color = "red";
   }
-if (randomPintas === "♦" || randomPintas === "♥") {
-    cardValue.style.color = "red";
-}
+
   // Icono superior
 card.appendChild(pintaUp);
 
